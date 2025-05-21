@@ -1,0 +1,19 @@
+:root body.neon {
+    --background-color: #000028;
+    --background-image: url('../img/background-dark.png');
+    /* --main-color: ... */
+    --border-color: 1px solid #FF0070;
+    --main-text-color: #F1B2CE;
+    --day-neon-color: #FF0070;
+    --button-color: #FF0070;
+    --button-hover-border: 1px solid #FF0070;
+    --article-name-shadow: 4px 4px 0 #FF0070;
+    --article-name-color: #DB00FF;
+    --first-page-title-container-color: #FF0070;
+    --question-color: #FF0070;
+    --paragraph-name-background: #FF0070;
+    --a-text-shadow:  2px 2px 0 #FF0070;
+    --a-color:#F1B2CE;
+    --paragraph-name-advice-title-color: #FF0070;
+    --paragraph-name-advice-color: #FF0070;
+}

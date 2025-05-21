@@ -1,0 +1,19 @@
+@font-face {
+    font-family: IBMPlexMono;
+    font-weight: regular;
+    font-style: normal;
+    src: url(../fonts/IBMPlexMono-Regular.woff);
+}
+
+@font-face {
+    font-family: IBMPlexMono;
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/IBMPlexMono-Bold.woff);
+}
+
+@font-face {
+    font-family: IBMPlexMono;
+    font-style: italic;
+    src: url(../fonts/IBMPlexMono-Regular.woff);
+}
