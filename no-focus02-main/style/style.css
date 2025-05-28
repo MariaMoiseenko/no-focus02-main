@@ -196,7 +196,7 @@ a:hover{
     font-family: IBMPlexMono;
     font-weight: 700;
     font-size: 18px;
-    line-height: 23.4px;
+    line-height: 23.4px; 
     letter-spacing: 0%;
     color: #000028;
     margin-top: 40px;
@@ -214,6 +214,7 @@ a:hover{
     color: #000028;
     margin-top: 20px;
 }
+
 
 .gallery-container {
     display: grid;
@@ -237,6 +238,7 @@ footer {
     min-width: 375px;
     min-height: 668px;
     position: relative;
+    background-color: var(--background-color);
 }
 
 footer::before {
@@ -338,6 +340,11 @@ footer::after{
     .three-columns{
         margin-top: 80px;
     }
+    /* не работает надо чтобы строка была 23
+    .paragraph-name-advice-title {
+        height: 23px;
+        
+    }*/
 }
 
 @media screen and (min-width: 1024px) {
@@ -365,5 +372,8 @@ footer::after{
     .three-columns-answer{
         display: flex;
         gap: 20px;
+    }
+    .paragraph-name-advice-title{
+        height: 23px;
     }
 }
